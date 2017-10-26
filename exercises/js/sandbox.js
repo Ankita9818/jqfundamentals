@@ -17,10 +17,10 @@ $(document).ready(function() {
   $("label[for='q']").css("color", "green");
 
   //4- Figure out how many elements on the page are hidden
-  alert($("* :hidden").length);
+  console.log($("* :hidden").length);
 
   //5- Figure out how many image elements on the page have an alt attribute.
-  alert($('img[alt]').length);
+  console.log($('img[alt]').length);
 
   //6- Select all of the odd table rows in the table body.
   $('tbody tr:even').css( "color", "lightblue");
